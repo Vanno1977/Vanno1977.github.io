@@ -7,7 +7,7 @@
 <input type="text" value="84.201.188.117" id="myInput">
 <button onclick="myFunction()">Скопировать</button>
 
-<input type="text" value="84.201.185.125" id="myInput1">
+<input type="text" value1="84.201.185.125" id="myInput1">
 <button onclick="myFunction1()">Скопировать</button>
 
 
@@ -18,7 +18,7 @@ function myFunction() {
   var copyText = document.getElementById("myInput");
   copyText.select();
   document.execCommand("copy");
-  alert("Copied the text: " + copyText.value);
+  alert("Скопировать текст: " + copyText.value);
 }
 </script>
 
@@ -27,7 +27,7 @@ function myFunction1() {
   var copyText = document.getElementById("myInput1");
   copyText.select();
   document.execCommand("copy");
-  alert("Скопировать текст: " + copyText.value);
+  alert("Скопировать текст: " + copyText.value1);
 }
 </script>
 
