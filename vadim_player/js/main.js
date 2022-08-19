@@ -122,7 +122,7 @@ jQuery(document).ready(function() {
         range: 'min',
         min: 1,
         max: 100,
-        value: 10,
+        value: 80,
         start: function(event,ui) {},
         slide: function(event, ui) {
             song.volume = ui.value / 100;
