@@ -21,18 +21,9 @@ jQuery(document).ready(function() {
         var cover = elem.attr('cover');
         var artist = elem.attr('artist');
         
-        
-         $('.pl').click(function (e) {
-        e.preventDefault();
-
-        $('.playlist').fadeIn(300);
-    });
-        
-        
-        
-
         $('.player .title').text(title);
         $('.player .artist').text(artist);
+        $('.playlist').fadeIn(300);
         $('.player .cover').css('background-image','url(data/' + cover+')');;
 
         song = new Audio('data/' + url);
