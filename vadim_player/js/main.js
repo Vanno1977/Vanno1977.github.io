@@ -22,8 +22,11 @@ jQuery(document).ready(function() {
         var artist = elem.attr('artist');
         
         
-     $('.pl').click(function (e) {e.preventDefault();
-     $('.playlist').fadeIn(300);
+         $('.pl').click(function (e) {
+        e.preventDefault();
+
+        $('.playlist').fadeIn(300);
+    });
         
         
         
