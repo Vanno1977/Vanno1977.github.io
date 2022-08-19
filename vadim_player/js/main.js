@@ -22,11 +22,8 @@ jQuery(document).ready(function() {
         var artist = elem.attr('artist');
         
         
-    $('.pl').click(function (e) {
-        e.preventDefault();
-
-        $('.playlist').fadeIn(300);
-    });
+    $('.pl').click(function (e) {e.preventDefault();
+    $('.playlist').fadeIn(300);
         
         
         
@@ -125,7 +122,7 @@ jQuery(document).ready(function() {
         range: 'min',
         min: 1,
         max: 100,
-        value: 80,
+        value: 10,
         start: function(event,ui) {},
         slide: function(event, ui) {
             song.volume = ui.value / 100;
